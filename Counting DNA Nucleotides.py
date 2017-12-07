@@ -1,12 +1,9 @@
-def Nucleotide_Count(fileLocation):
+def Nucleotide_Count(dna):
     '''
     Counting the Nucleotide bases in the entire DNA Sequence
-    :param fileLocation:
+    :param dna:
     :return: countA,countC,countG,countT
     '''
-    file = open(fileLocation, 'r')
-    dna = file.read()
-    file.close()
     countA = 0
     countC = 0
     countG = 0

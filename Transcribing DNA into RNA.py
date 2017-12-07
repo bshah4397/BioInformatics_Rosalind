@@ -1,11 +1,8 @@
-def DNA_to_RNA(fileLocation):
+def DNA_to_RNA(dna):
     '''
     Converting DNA -> RNA
-    :param fileLocation:
+    :param dna:
     :return: rna
     '''
-    file = open(fileLocation,'r')
-    dna = file.read()
-    file.close()
     rna = dna.replace('T','U')
     return rna
